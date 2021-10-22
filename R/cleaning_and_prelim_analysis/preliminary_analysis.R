@@ -6,7 +6,7 @@ source("R/cleaning_and_prelim_analysis/make_weights.R")
 source("R/cleaning_and_prelim_analysis/make_composite_indicators.R")
 
 
-df<- read_csv("outputs/20210315_clean_data.csv")
+df<- read_csv("outputs/20211022_clean_data.csv")
 # dap_sheet<- "https://docs.google.com/spreadsheets/d/14p0UdcIR8oPoa0YD-FOZNV30cgRUQXJdP-qQ60ljZA4/edit#gid=193229464"
 # dap<-googlesheets4::read_sheet(ss = dap_sheet, sheet = "analysis_plan")
 dap<- read_csv("inputs/dap/r_dap.csv")
